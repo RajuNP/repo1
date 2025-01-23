@@ -8,9 +8,9 @@ const App = () => {
       <div className='outer-1'>
         <div className='dropdown'>
           <div className='dropdown-head'>
-            <img src="img."className='image'/>
+            <img src="img."alt="image"className='image'/>
             
-          </div>
+          </div> 
         </div>
       </div>
     </>
