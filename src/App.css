@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.outer-1{
+    height:100vh;
+    width:100vw;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown{
+    position:relative;
+    z-index:1;
+}
+.dropdown-head{
+    padding:5px;
+    height: 10vh;
+    width: 20vw;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    gap:5;
+}
+
+.image{
+    height: 9vh;
+    width: 5vw;
+    border-radius: 50%;
+    background-color: yellowgreen;
+}
